@@ -1,0 +1,67 @@
+/* styles.css */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Input and button styles */
+  .input-container {
+    display: flex;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Avatar image styles */
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Username styles */
+  .username {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Other info styles */
+  .info {
+    margin-top: 0.5rem;
+  }
+  
